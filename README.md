@@ -91,7 +91,7 @@ UNGOC[Ntf阵营] 能够在这个插件生成。
 
 首先, 将 dependencies.zip 放到 %appdata%\Exiled\Plugins\dependencies 目录内。
 
-其次, 将 NGOC.dll 放到 %appdata%\Exiled\Plugins 目录内。
+其次, 将 UNGOC.dll 放到 %appdata%\Exiled\Plugins 目录内。
 
 最后, 你可以在配置文件中设置是否启动音乐, 如果启动音乐, 你需要设置音乐路径并把音乐放在路径位置(48000采样率 单声道ogg格式).
 
