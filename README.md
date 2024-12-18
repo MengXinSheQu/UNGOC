@@ -1,5 +1,5 @@
+# English && Chinese
 # English - UNGOC
-
 ## UNGOC is EXILED Plugin
 
 UNGOC[Ntf Team] can spawn in this Plugin.
