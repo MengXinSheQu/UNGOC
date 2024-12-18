@@ -99,10 +99,10 @@ UNGOC[Ntf阵营] 能够在这个插件生成。
 
 ```
 
-//如果刷新九尾狐，第几次将刷新UNGOC？(如果为0则跳过)
+//如果刷新九尾狐，第几次将刷新UNGOC(如果为0则跳过)
   spawn_times: 1
 
-//如果刷新UNGOC，启动广播?
+//如果刷新UNGOC，启动广播
   enable_announcement: true
 
 //如果刷新UNGOC，则播报CASSIE广播文本
