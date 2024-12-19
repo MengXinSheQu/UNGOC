@@ -1,3 +1,4 @@
+![image](https://github.com/MengXinSheQu/UNGOC/blob/main/image/image_1.png)
 # English && Chinese
 # English - UNGOC
 ## UNGOC is EXILED Plugin
