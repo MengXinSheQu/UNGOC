@@ -3,7 +3,7 @@ using System;
 
 namespace UNGOC
 {
-    public class Plugin : Plugin<Config>
+    public class Plugin : Plugin<Config,Translation>
     {
         /*
          倒卖不会让你有什么好处，只会让你失去爹妈

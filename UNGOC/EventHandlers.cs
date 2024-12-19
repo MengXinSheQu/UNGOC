@@ -9,7 +9,7 @@ namespace UNGOC
 {
     internal class EventHandlers
     {
-        private static List<Player> UNGOC_C = new List<Player>(); 
+        internal static List<Player> UNGOC_C = new List<Player>(); 
         public static void RegEvent() 
         {
             Exiled.Events.Handlers.Server.RoundStarted += OnRoundStart;
@@ -22,7 +22,7 @@ namespace UNGOC
         }
         private static void OnRoundStart() 
         {
-            Dummy.Clear();
+            Dummy.Destory();
             SpawnTimes = 0;
             UNGOC_C.Clear();
         }
@@ -37,11 +37,11 @@ namespace UNGOC
                 if (Plugin.UNGOCPlugin.Config.Debug)
                     Log.Debug(" 刷新UNGOC! / Respawn UNGOC!");
                 if (Plugin.UNGOCPlugin.Config.EnableBroadcast)
-                    Map.Broadcast(7, Plugin.UNGOCPlugin.Config.Broadcast);
+                    Map.Broadcast(7, Plugin.UNGOCPlugin.Translation.Broadcast);
                 if (Plugin.UNGOCPlugin.Config.EnableMusic)
                     Dummy.PlaySound(Plugin.UNGOCPlugin.Config.MusicPath);
                 if (Plugin.UNGOCPlugin.Config.EnableAnnouncement)
-                    Cassie.MessageTranslated(Plugin.UNGOCPlugin.Config.Announcement, Plugin.UNGOCPlugin.Config.Announcement_Translation);
+                    Cassie.MessageTranslated(Plugin.UNGOCPlugin.Translation.Announcement, Plugin.UNGOCPlugin.Translation.Announcement_Translation);
                 foreach (Player player in ev.Players) 
                 { 
                     if(UNGOC_C.Count < 1)
@@ -68,7 +68,7 @@ namespace UNGOC
                 {
                     player.AddItem(item);
                 }
-                player.Broadcast(5, Plugin.UNGOCPlugin.Config.UNGOCPrivate_Info);
+                player.Broadcast(5, Plugin.UNGOCPlugin.Translation.UNGOCPrivate_Info);
             }
             public static void PlayerSpawn_GOCC(Player player)
             {
@@ -81,7 +81,7 @@ namespace UNGOC
                 {
                     player.AddItem(item);
                 }
-                player.Broadcast(5, Plugin.UNGOCPlugin.Config.UNGOCCaptain_Info);
+                player.Broadcast(5, Plugin.UNGOCPlugin.Translation.UNGOCCaptain_Info);
             }
         }
     }

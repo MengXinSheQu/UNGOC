@@ -11,7 +11,7 @@ namespace UNGOC.SteveAPI
     internal class Dummy
     {
         private static ReferenceHub Bot;
-        public static void Clear()
+        public static void Destory()
         {
             if (Bot == null)
                 return;
