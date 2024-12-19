@@ -1,0 +1,19 @@
+u_n_g_o_c_u_n_g_o_c_plugin:
+# If Respawn UNGOC , Send CASSIE Announcement text
+  announcement: 'Attention all site Foundation personnel . U N G O C personnel into the facility gate B . G O C personnel will help NINETAILEDFOX containment all SCPSubjects'
+  # If Respawn UNGOC , Send CASSIE Announcement Translation
+  announcement__translation: 'Attention all site Foundation personnel . GOC Personnel into the Facility Gate-B . GOC personnel will help Nine Tailed Fox Containment all SCPSubjects'
+  # If Respawn UNGOC , Send Map Broadcast text
+  broadcast: '<size=65%>[<color=#00FFF6>C.A.S.S.I.E.</color>] Attention ! UNGOC into the Facility Gate-B! '
+  # UNGOC Captain Role Info
+  u_n_g_o_c_captain__info: |-
+    <size=65%>You are </size><size=100%><color=#00FFF6>
+    UNGOC - Captain</color></size>
+    <size=45%>Help MTF
+    ------Contained All SCP Subjects------</size>
+  # UNGOC Private Role Info
+  u_n_g_o_c_private__info: |-
+    <size=65%>You are </size><size=100%><color=#00FFF6>
+    UNGOC - Private</color></size>
+    <size=45%>Help MTF
+    ------Contained All SCP Subjects------</size>

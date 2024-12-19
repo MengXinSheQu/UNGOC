@@ -1,0 +1,19 @@
+u_n_g_o_c_u_n_g_o_c_plugin:
+# 如果刷新UNGOC，则播报CASSIE广播文本
+  announcement: 'Attention all site Foundation personnel . U N G O C personnel into the facility gate B . G O C personnel will help NINETAILEDFOX containment all SCPSubjects'
+  # 如果刷新UNGOC，则播报CASSIE广播本地化文本(语言文本)
+  announcement__translation: '所有设施基金会人员注意<split>UNGOC人员已进入设施B大门，GOC人员将协助九尾狐收容所有SCP项目。'
+  # 如果刷新UNGOC，则全图播报文本
+  broadcast: '<size=65%>[<color=#00FFF6>C.A.S.S.I.E.</color>] 全球超自然联盟已进入设施协助基金会收容异常,请所有非战斗人员请撤离设施!</size>'
+  # UNGOC指挥官信息介绍
+  u_n_g_o_c_captain__info: |-
+    <size=65%>你是 </size><size=100%><color=#00FFF6>
+    UNGOC - 指挥官</color></size>
+    <size=45%>与基金会合作
+    ------清除设施威胁------</size>
+  # UNGOC列兵信息介绍
+  u_n_g_o_c_private__info: |-
+    <size=65%>你是 </size><size=100%><color=#00FFF6>
+    UNGOC - 作战专家</color></size>
+    <size=45%>与基金会合作
+    ------清除设施威胁------</size>
