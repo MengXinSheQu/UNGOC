@@ -154,15 +154,15 @@ UNGOC[Ntf阵营] 能够在这个插件生成。
     <size=45%>与基金会合作
     ------清除设施威胁------</size>
 
-  # UNGOC指挥官角色类型 / UNGOC Captain Role
+//UNGOC指挥官角色类型 / UNGOC Captain Role
   u_n_g_o_c_captain__role: NtfCaptain
 
-  # UNGOC列兵角色类型 / UNGOC Private Role
+//UNGOC列兵角色类型 / UNGOC Private Role
   u_n_g_o_c_private__role: NtfSpecialist
 
-  # 启动UNGOC刷新音乐 / Enable UNGOC Respawn Music
+//启动UNGOC刷新音乐 / Enable UNGOC Respawn Music
   enable_music: true
 
-  # UNGOC刷新音乐路径 / UNGOC Respawn Music Path
+//UNGOC刷新音乐路径 / UNGOC Respawn Music Path
   music_path: '%appdata%\EXILED\UNGOC.ogg'
 ```
