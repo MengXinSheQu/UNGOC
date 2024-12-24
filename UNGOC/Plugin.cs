@@ -5,9 +5,6 @@ namespace UNGOC
 {
     public class Plugin : Plugin<Config,Translation>
     {
-        /*
-         倒卖不会让你有什么好处，只会让你失去爹妈
-         */
         internal static Plugin UNGOCPlugin { get; } = new Plugin();
         public override string Author { get; } = "萌新社区服务器 & 史蒂夫";
         public override string Name { get; } = "UNGOC插件 / UNGOC Plugin";

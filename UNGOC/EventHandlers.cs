@@ -29,7 +29,7 @@ namespace UNGOC
         private static ushort SpawnTimes = 0;
         private static void OnRespawningTeam(RespawningTeamEventArgs ev)
         {
-            if (ev.NextKnownTeam != SpawnableTeamType.NineTailedFox)
+            if (ev.NextKnownTeam != PlayerRoles.Faction.FoundationStaff)
                 return;
             SpawnTimes++;
             if(SpawnTimes == Plugin.UNGOCPlugin.Config.SpawnTimes) 
@@ -41,7 +41,10 @@ namespace UNGOC
                 if (Plugin.UNGOCPlugin.Config.EnableMusic)
                     Dummy.PlaySound(Plugin.UNGOCPlugin.Config.MusicPath);
                 if (Plugin.UNGOCPlugin.Config.EnableAnnouncement)
+                {
+                    Cassie.Clear();
                     Cassie.MessageTranslated(Plugin.UNGOCPlugin.Translation.Announcement, Plugin.UNGOCPlugin.Translation.Announcement_Translation);
+                }
                 foreach (Player player in ev.Players) 
                 { 
                     if(UNGOC_C.Count < 1)
@@ -55,7 +58,6 @@ namespace UNGOC
                 }
                 UNGOC_C.Clear();
                 ev.IsAllowed = false;
-                ev.NextKnownTeam = SpawnableTeamType.None;
             }
         }
         public class UNGOC_TeamRespawn 
