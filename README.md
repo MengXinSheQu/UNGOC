@@ -1,29 +1,15 @@
-![image](https://github.com/MengXinSheQu/UNGOC/blob/main/image/image_1.png)
-# English && Chinese
-# English - UNGOC
-## UNGOC is EXILED Plugin
+# UNGOC - EXILED
 
-UNGOC[Ntf Team] can spawn in this Plugin.
+## 介绍:
 
-## Installation:
+该插件向游戏添加了特殊阵营"UNGOC-全球超自然联盟"
 
-Frist, Place the files in the dependencies.zip folder in the %appdata%\Exiled\Plugins\dependencies folder.
-
-Next, Place the UNGOC.dll in the %appdata%\Exiled\Plugins folder.
-
-Finally, You Can Enbale RespawnMusic in Plugin's Config, If "EnableMusic" is true , You need set "MusicPath" and place music in path.
-
-# 中文 - UNGOC
-
-## UNGOC为EXILED插件
-
-UNGOC[Ntf阵营] 能够在这个插件生成。
-你可以自由的设置配置文件项，来控制这个插件。
+你可以自由的配置配置文件项来控制UNGOC的刷新操作
 
 ## 安装:
 
-首先, 将 dependencies.zip 放到 %appdata%\Exiled\Plugins\dependencies 目录内。
+将 `dependencies.zip` 解压并放入`%appdata%\Exiled\Plugins\dependencies` 目录内
 
-其次, 将 UNGOC.dll 放到 %appdata%\Exiled\Plugins 目录内。
+将 `UNGOC.dll` 放入 `%appdata%\Exiled\Plugins` 目录内。
 
-最后, 你可以在配置文件中设置是否启动音乐, 如果启动音乐, 你需要设置音乐路径并把音乐放在路径位置(48000采样率 单声道ogg格式).
+你可以设置是否启动刷新音乐,如果启动则需要将音频放入指定目录(音频要求48000采样率 单声道ogg格式).
